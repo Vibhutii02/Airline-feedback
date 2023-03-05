@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Questions"
+    android:background="@drawable/backgroundimage2"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/Text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scrollbars="vertical"
+            android:layout_marginTop="80dp"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"
+            android:textColor="#8E24AA"
+            android:textSize="21sp"
+            android:text="1) Baggage check-in and boarding staff:"
+            />
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner"
+        android:layout_gravity="left"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"/>
+
+        <TextView
+            android:id="@+id/Text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scrollbars="vertical"
+            android:textStyle="bold"
+            android:textColor="#8E24AA"
+            android:textSize="21sp"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="10dp"
+            android:text="2) In-flight refreshment service:"
+            />
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner1"
+            android:layout_gravity="left"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"/>
+
+        <TextView
+            android:id="@+id/Text3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scrollbars="vertical"
+            android:textStyle="bold"
+            android:textColor="#8E24AA"
+            android:textSize="21sp"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="10dp"
+            android:text="3) Departure and arrival punctuality:"
+            />
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner2"
+            android:layout_gravity="left"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"/>
+
+        <TextView
+            android:id="@+id/Text4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scrollbars="vertical"
+            android:textStyle="bold"
+            android:textColor="#8E24AA"
+            android:textSize="21sp"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="10dp"
+            android:text="4) Overall cleanliness:"
+            />
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner3"
+            android:layout_gravity="left"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"/>
+
+        <TextView
+            android:id="@+id/Text5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scrollbars="vertical"
+            android:textStyle="bold"
+            android:textColor="#8E24AA"
+            android:textSize="21sp"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="10dp"
+            android:text="5) Overall comfort:"
+            />
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner4"
+            android:layout_gravity="left"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"/>
+
+        <TextView
+            android:id="@+id/Text6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scrollbars="vertical"
+            android:textStyle="bold"
+            android:textColor="#8E24AA"
+            android:textSize="21sp"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="10dp"
+            android:text="6) In-flight crew behaviour and service:"
+            />
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner5"
+            android:layout_gravity="left"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"/>
+
+        <TextView
+            android:id="@+id/Text7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scrollbars="vertical"
+            android:textStyle="bold"
+            android:textColor="#8E24AA"
+            android:textSize="21sp"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="10dp"
+            android:text="7) Waiting time in baggage claim:"
+            />
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner6"
+            android:layout_gravity="left"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"/>
+
+        <TextView
+            android:id="@+id/Text9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scrollbars="vertical"
+            android:textStyle="bold"
+            android:textColor="#8E24AA"
+            android:textSize="21sp"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="10dp"
+            android:text="Other suggestions (if any):"
+            />
+
+        <EditText
+            android:id="@+id/etText8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:hint="Other remarks"
+            android:inputType="textLongMessage"/>
+
+        <TextView
+            android:id="@+id/Text10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scrollbars="vertical"
+            android:textStyle="bold"
+            android:textColor="#8E24AA"
+            android:textSize="21sp"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="10dp"
+            android:text="Overall rating for your flight:"
+            />
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ratingbar"
+            android:numStars="5"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:stepSize="0.5"
+            />
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="121dp"
+            android:layout_height="51dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="Submit"/>
+
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUp"
+    android:background="@drawable/backgroundimage2"
+    >
+
+    <androidx.appcompat.widget.AppCompatTextView
+    android:id="@+id/Name"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="14dp"
+    android:layout_marginTop="80dp"
+    android:text="Name"
+    android:textColor="#8E24AA"
+        android:textStyle="bold"
+    android:textSize="20sp"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
+
+
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your name"
+        android:inputType="text"
+        android:layout_marginStart="14dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@id/Name"
+        app:layout_constraintStart_toStartOf="@id/Name"
+        app:layout_constraintEnd_toEndOf="@id/Name"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvPhoneNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phone no."
+        android:textColor="#8E24AA"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/etName"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginEnd="16dp"/>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/etPhoneNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your phone no."
+        android:inputType="number"
+        android:layout_marginStart="14dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@id/tvPhoneNo"
+        app:layout_constraintStart_toStartOf="@id/Name"
+        app:layout_constraintEnd_toEndOf="@id/Name"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvCreate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textColor="#8E24AA"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/etPhoneNo"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginEnd="16dp"/>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/etSignUpPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter password"
+        android:inputType="textPassword"
+        android:layout_marginStart="14dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/tvCreate"
+        app:layout_constraintStart_toStartOf="@id/Name"
+        app:layout_constraintEnd_toEndOf="@id/Name"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvRetype"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Re-Type password"
+        android:textColor="#8E24AA"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/etSignUpPass"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginEnd="16dp"/>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/etRetype"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Re-type your password"
+        android:inputType="textPassword"
+        android:layout_marginStart="14dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@id/tvRetype"
+        app:layout_constraintStart_toStartOf="@id/Name"
+        app:layout_constraintEnd_toEndOf="@id/Name"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textColor="#8E24AA"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/etRetype"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginEnd="16dp"/>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/etSignupemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your email"
+        android:inputType="textPassword"
+        android:layout_marginStart="14dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@id/tvemail"
+        app:layout_constraintStart_toStartOf="@id/Name"
+        app:layout_constraintEnd_toEndOf="@id/Name"/>
+    <Button
+        android:id="@+id/btRegister"
+        android:layout_width="138dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="25dp"
+        android:text="Register"
+        app:layout_constraintEnd_toEndOf="@id/etRetype"
+        app:layout_constraintHorizontal_bias="0.452"
+        app:layout_constraintStart_toStartOf="@id/etSignupemail"
+        app:layout_constraintTop_toBottomOf="@id/etSignupemail" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "604615869805",
+    "firebase_url": "https://airlinefeedback-d2bfc-default-rtdb.firebaseio.com",
+    "project_id": "airlinefeedback-d2bfc",
+    "storage_bucket": "airlinefeedback-d2bfc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:604615869805:android:77c20c430fc70a31880664",
+        "android_client_info": {
+          "package_name": "com.example.airlinefeedback"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "604615869805-se0pltgpn2v4vif7t3pvr5d0jg6i6l6r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdAxFLr5ECh9W1hrgG5_dXehyilrb6riU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "604615869805-se0pltgpn2v4vif7t3pvr5d0jg6i6l6r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

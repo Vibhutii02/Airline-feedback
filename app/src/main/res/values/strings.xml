@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AirlineFeedback</string>
+
+    <string-array name="options">
+        <item name="Excellent" type="font" />
+        <item name="Good" type="font" />
+        <item name="Average" type="font" />
+        <item name="Needs improvement" type="font" />
+    </string-array>
+</resources>
